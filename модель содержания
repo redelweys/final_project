@@ -1,1 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<view>
+		<rows>
+			<row>
+				<column>
+					<block id="tlcInfo" name="Общие сведения">
+						<rows>
+							<row>
+								<column>
+                                    <block id="14" name="Регистрационные данные">
+                                        <rows>
+											<row>
+												<column>
+                                                    <field fieldType="field" key="|Document|Статус" name="Статус" valueType="text" />
+                                                </column>
+                                                <column>
+													<field fieldType="field" key="|Document|Дата_создания" name="Дата создания" valueType="date" />
+												</column>				  
+											</row>
+                                            <row>
+												<column>
+                                                    <field fieldType="field" key="|Document|Редакция" name="Редакция" valueType="integer" />
+                                                </column>
+                                                <column>
+													<field fieldType="field" key="|Document|Регистрационный_номер" name="Регистрационный номер" valueType="text" />
+												</column>				  
+											</row>
+                                        </rows>
+                                    </block>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+                                    <block id="15" name="Ответственный по документу">
+                                        <rows>
+                                            <row>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|ФИО_ответственного" name="ФИО ответственного" valueType="text" />
+                                                </column>
+                                                <column>
+													<field fieldType="field" key="|Document|Группа" name="Группа" valueType="date" isValue="true" dict-column-name="Группа" display-field-part="true"/>
+												</column>				  
+											</row>
+                                        </rows>
+                                    </block>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+                                    <block id="16" name="Основные сведения">
+                                        <rows>
+                                            <row>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|Дополнительная_информация" name="Дополнительная информация" valueType="longtext" />
+                                                </column>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|Таблица" name="Таблица" valueType="boolean" />
+                                                </column>
+                                            </row>
+                                            <row>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|Стоимость" name="Стоимость" valueType="integer" />
+                                                </column>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|Налог,_%" name="Налог, %" valueType="integer" />
+                                                </column>
+                                            </row>
+                                            <row>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|Итоговая_стоимость" name="Итоговая стоимость" valueType="integer" />
+                                                </column>
+                                            </row>
+                                        </rows>
+                                    </block>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+									<block id="17" name="Таблица">
+										<rows>
+											<row>
+												<column>
+													<table key="|Document|Критерии_оценки" height="1000" >
+														<column fieldType="field" key="|Наименование_критерия" valueType="text" name="Наименование критерия" width="450" headerNoEllipsis="true"/>
+														<column fieldType="field" key="|Описание_критерия" valueType="text"  name="Описание критерия" width="450"  headerNoEllipsis="true"/>	
+														<column fieldType="field" key="|Оценка" name="Оценка" valueType="integer" width="300" headerNoEllipsis="true"/>	
+													</table>
+												</column>
+											</row>
+										</rows>
+									</block>
+								</column>
+							</row>
+                        </rows>
+                    </block>
+                </column>
+            </row>
 
