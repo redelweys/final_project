@@ -96,4 +96,59 @@
                     </block>
                 </column>
             </row>
+            <row>
+                <column>
+                    <block id="tlcInfoSogl" name="Информация по согласованию">
+                        <rows>
+							<row>
+								<column>
+                                    <block id="18" name="Согласование">
+                                        <rows>
+											<row>
+												<column>
+                                                    <field fieldType="field" key="|Document|Поле_2" name="Поле 2" valueType="boolean" />
+                                                </column>
+                                                <column>
+													<field fieldType="field" key="|Document|Поле_3" name="Поле 3" valueType="boolean" />
+												</column>				  
+											</row>
+                                            <row>
+                                                <column>
+                                                     <field fieldType="field" key="|Document|Согласующий" name="Согласующий" valueType="addressbook" isValue="true" address-book-tool-selectable = "WorkGroup, Person, 'Согласующий'" address-book-tool="Sogl"/>
+                                                </column>
+                                                <column>
+													<field fieldType="field" key="|Document|Поле_5" name="Поле 5" valueType="text" />
+												</column>
+                                            </row>
+                                            <row>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|Дата" name="Дата" valueType="date" />
+                                                </column>
+                                            </row>
+                                        </rows>
+                                    </block>
+                                </column>
+                            </row>
+                            <row>
+                                <column>
+									<block id="19" name="Категории">
+										<rows>
+											<row>
+                                                <column>
+                                                    <field fieldType="field" key="|Document|Категория" name="Категория" valueType="text" />
+                                                </column>
+                                                <column>
+													<field fieldType="field" key="|Document|Комментарий" name="Комментарий" valueType="longtext" />
+												</column>				  
+											</row>
+										</rows>
+									</block>
+								</column>
+							</row>
+                        </rows>
+                    </block>
+                </column>
+            </row>
+                                        
+
 
