@@ -186,7 +186,7 @@
                                         <rows>
 											<row>
 												<column>
-                                                    <field fieldType="field" key="|Document|Статус" name="Статус" valueType="text" />
+                                                    <field fieldType="field" key="|Document|Статус1" name="Статус" valueType="text" />
                                                 </column>
                                                 <column>
 													<field fieldType="field" key="|Document|Дата_создания" name="Дата создания" valueType="date" />
@@ -226,10 +226,10 @@
                                         <rows>
                                             <row>
                                                 <column>
-                                                    <field fieldType="field" key="|Document|Дополнительная_информация" name="Дополнительная информация" valueType="longtext" />
+                                                    <field fieldType="field" key="|Document|Дополнительная_информация1" name="Дополнительная информация" valueType="longtext" />
                                                 </column>
                                                 <column>
-                                                    <field fieldType="field" key="|Document|Таблица" name="Таблица" valueType="boolean" />
+                                                    <field fieldType="field" key="|Document|Лог_1" name="Лог1" valueType="boolean" />
                                                 </column>
                                             </row>
                                             <row>
@@ -256,9 +256,9 @@
 											<row>
 												<column>
 													<table key="|Document|Критерии_оценки" height="1000" >
-														<column fieldType="field" key="|1" valueType="text" name="Наименование критерия" width="450" headerNoEllipsis="true"/>
-														<column fieldType="field" key="|2" valueType="text"  name="Описание критерия" width="450"  headerNoEllipsis="true"/>	
-														<column fieldType="field" key="|3" valueType="integer" name="Оценка" width="300" headerNoEllipsis="true"/>	
+														<column fieldType="field" key="|Критерий" valueType="text" name="Критерий" width="450" headerNoEllipsis="true"/>
+														<column fieldType="field" key="|Описание" valueType="text"  name="Описание" width="450"  headerNoEllipsis="true"/>	
+														<column fieldType="field" key="|Оценка" valueType="integer" name="Оценка" width="300" headerNoEllipsis="true"/>	
 													</table>
 												</column>
 											</row>
@@ -312,7 +312,7 @@
                                                     <field fieldType="field" key="|Document|Категория" name="Категория" valueType="text" />
                                                 </column>
                                                 <column>
-													<field fieldType="field" key="|Document|Комментарий" name="Комментарий" valueType="longtext" />
+													<field fieldType="field" key="|Document|Комментарий1" name="Комментарий" valueType="longtext" />
 												</column>				  
 											</row>
 										</rows>
@@ -1211,7 +1211,7 @@
                                             <row>
 											<row>
 												<column>
-                                                    <field fieldType="field" key="|Document|Статус" name="Статус" valueType="text" isValue="true" edit-name="Status" edit-readonly="true" />
+                                                    <field fieldType="field" key="|Document|Статус1" name="Статус" valueType="text" isValue="true" edit-name="Status" edit-readonly="true" />
                                                 </column>
                                             <row>
 												<column>
@@ -1220,7 +1220,7 @@
 											</row>
 											<row>
                                                 <column>
-													<field fieldType="field" key="|Document|Регистрационный_номер" name="Регистрационный номер" valueType="text" isValue="true" edit-name="RegNumb" edit-readonly="true" />
+													<field fieldType="field" key="|Document|Регистрационный_номер1" name="Регистрационный номер" valueType="text" isValue="true" edit-name="RegNumb" edit-readonly="true" />
 												</column>				  
 											</row>
                                         </rows>
@@ -1265,7 +1265,7 @@
 											</row>
 											<row>
                                                 <column>
-                                                    <field fieldType="field" key="|Document|Дополнительная_информация" name="Дополнительная информация" valueType="longtext" isValue="true" edit-name="dopInfo" />
+                                                    <field fieldType="field" key="|Document|Дополнительная_информация1" name="Дополнительная информация" valueType="longtext" isValue="true" edit-name="dopInfo" />
                                                 </column>
                                                 <column>
                                                     <field fieldType="field" key="|Document|Лог_1" name="Лог 1" valueType="boolean" isValue="true" edit-name="check1" edit-required="true" />
@@ -1308,9 +1308,9 @@
 											<row>
 												<column>
 													<table key="|Document|Критерии_оценки" edit-name="criteriyMark" height="1000" >
-														<column fieldType="field" key="|1" valueType="text" isValue="true" name="1" width="450" edit-name="1" headerNoEllipsis="true"/>
-														<column fieldType="field" key="|2" valueType="text" isValue="true" name="2" width="450" edit-name="2" headerNoEllipsis="true"/>	
-														<column fieldType="field" key="|3" valueType="integer" isValue="true" name="3" width="300" edit-name="3" headerNoEllipsis="true"/>	
+														<column fieldType="field" key="|Критерий" valueType="text" isValue="true" name="1" width="450" edit-name="criterii" headerNoEllipsis="true"/>
+														<column fieldType="field" key="|Описание" valueType="text" isValue="true" name="2" width="450" edit-name="discription" headerNoEllipsis="true"/>	
+														<column fieldType="field" key="|Оценка" valueType="integer" isValue="true" name="3" width="300" edit-name="mark" headerNoEllipsis="true"/>	
 													</table>
 												</column>
 											</row>
@@ -1393,7 +1393,7 @@
                                                     <field fieldType="field" key="|Document|Категория" name="Категория" valueType="text" isValue="true" edit-name="categoriy" edit-readonly="true" />
                                                 </column>
                                                 <column>
-													<field fieldType="field" key="|Document|Комментарий" name="Комментарий" valueType="longtext" isValue="true" edit-name="comm" />
+													<field fieldType="field" key="|Document|Комментарий1" name="Комментарий" valueType="longtext" isValue="true" edit-name="comm" />
 												</column>				  
 											</row>
 										</rows>
